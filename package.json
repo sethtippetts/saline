@@ -1,0 +1,27 @@
+{
+  "name": "saline",
+  "version": "0.0.1",
+  "description": "A Salesforce ORM for Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmithut/saline.git"
+  },
+  "keywords": [
+    "salesforce",
+    "orm"
+  ],
+  "author": "ksmithut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksmithut/saline/issues"
+  },
+  "homepage": "https://github.com/ksmithut/saline#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "jsforce": "^1.5.0"
+  }
+}
