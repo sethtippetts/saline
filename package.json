@@ -25,7 +25,8 @@
   "homepage": "https://github.com/ksmithut/saline#readme",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "jsforce": "^1.5.0"
+    "jsforce": "^1.5.0",
+    "pool-party": "^0.2.8"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
