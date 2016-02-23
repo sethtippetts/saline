@@ -1,1 +1,5 @@
-src/
+coverage
+.eslintrc
+.gitignore
+**/__tests__
+test

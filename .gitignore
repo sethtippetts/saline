@@ -1,6 +1,5 @@
 node_modules
-coverages
+testing
+coverage
 *.DS_Store
 *.log
-lib/
-coverage
