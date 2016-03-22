@@ -202,7 +202,7 @@ const Attachment = saline.model('Attachment', AttachmentSchema);
 
 ```
 
-## saline.model(modelName, schema)
+## saline.model(modelName, schema, options)
 
 ### Params
 
@@ -210,6 +210,16 @@ const Attachment = saline.model('Attachment', AttachmentSchema);
   used in relationship lookups.
 * `schema` (Schema) - The saline Schema object you wish to be converted into a
   model.
+* `options` (object) - The model configuration options. 
+     
+#### Model Configuration Options
+  ```
+   { 
+     ignoreErrors: false 
+   } ```
+      
+* `ignoreErrors` (boolean) - When true, ignores any schema errors, failing silently in attempt to update/insert as much 
+                    data as possible. Defaults to false.
 
 Returns the new Model. More on models later.
 
