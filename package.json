@@ -1,11 +1,11 @@
 {
   "name": "saline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Salesforce solution for Node",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/SethTippetts/saline.git"
+    "type": "git",
+    "url": "https://github.com/SethTippetts/saline.git"
   },
   "scripts": {
     "test": "istanbul cover -x **/__tests__/** _mocha"
