@@ -213,13 +213,15 @@ const Attachment = saline.model('Attachment', AttachmentSchema);
 * `options` (object) - The model configuration options. 
      
 #### Model Configuration Options
-  ```
-   { 
-     ignoreErrors: false 
-   } ```
+```
+{ 
+  ignoreErrors: false,
+  strict: true
+} 
+```
       
-* `ignoreErrors` (boolean) - When true, ignores any schema errors, failing silently in attempt to update/insert as much 
-                    data as possible. Defaults to false.
+* `ignoreErrors` (boolean) - When true, ignores any schema errors, failing silently in attempt to update/insert as much data as possible. Defaults to false.
+* `strict` (boolean) - When true, strips fields not defined in the schema.  When false, other fields may be queried for and other jsforce syntax may be used, e.g. `$or`. Defaults to true.
 
 Returns the new Model. More on models later.
 
