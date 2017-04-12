@@ -1,6 +1,6 @@
 {
   "name": "saline",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A Salesforce solution for Node",
   "main": "index.js",
   "repository": {
