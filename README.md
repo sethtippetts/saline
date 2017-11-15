@@ -1,5 +1,7 @@
 # saline
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mostcowbell/saline.svg)](https://greenkeeper.io/)
+
 #### A Salesforce solution for Node
 
 This project came about with many frustrations working with a poorly implemented
